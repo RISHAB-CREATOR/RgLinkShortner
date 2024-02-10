@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="icon" href="RG.png">
-	<title>URL Shortner Made By Rishab</title>
+	<title>RgLinkShortner</title>
 </head>
 
 <body class="bg-gray-900">
@@ -24,7 +24,7 @@
 	<footer class="text-gray-400 bg-gray-900 body-font">
 		<div class="bg-gray-900 bg-opacity-90">
 			<div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-				<p class="text-gray-400 text-sm text-center sm:text-left">© 2022 Rishab —
+				<p class="text-gray-400 text-sm text-center sm:text-left">© 2024 Rishab —
 					<a href="https://youtube.com/c/itzrishabboss" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@ItzRishabBoss</a>
 				</p>
 				<span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-400 text-sm">Easy to use | Customized URLs | No Logs or History</span>
@@ -33,7 +33,7 @@
 	</footer>
 	<script>
 		if (localStorage.getItem("alias") !== null) {
-			var sourceUrl = "https://rishab-creator.github.io/Link-Shortner/load.html?sl="
+			var sourceUrl = "https://rishab-creator.github.io/RgLinkShortner/load.html?sl="
 			document.getElementById("shortened").innerHTML = sourceUrl + localStorage.getItem("alias");
 		} else {
 			window.location.href = "/knot/";
