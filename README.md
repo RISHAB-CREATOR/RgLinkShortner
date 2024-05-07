@@ -20,7 +20,7 @@ Welcome to the Link Shortener, a tool that allows you to shorten URLs and store 
 
 ## Usage 🖥️
 
-1. Visit the Link Shortener [website](https://rishab-creator.github.io/RgLinkShortner/)
+1. Visit the Link Shortener [website](https://rglinkshortner.vercel.app/)
 2. Enter the URL you want to shorten.
 3. Optionally customize the link settings (e.g., password protection, expiration date).
 4. Click the "Shorten" button to generate the shortened link.
